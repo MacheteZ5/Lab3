@@ -1,0 +1,2 @@
+C:\Users\mache\Documents\Segundo año\Primer Ciclo\Estructura de Datos I Lab\Lab3_Montenegro_1229918\ArbolBinario\obj\Debug\ArbolBinario.csprojAssemblyReference.cache
+C:\Users\mache\Documents\Segundo año\Primer Ciclo\Estructura de Datos I Lab\Lab3_Montenegro_1229918\ArbolBinario\obj\Debug\ArbolBinario.csproj.CoreCompileInputs.cache
