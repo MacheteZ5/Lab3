@@ -42,11 +42,7 @@ namespace Lab3_Montenegro_1229918.Controllers
                         inventarios.nombre = row.Split(';')[1];
                         inventarios.descripción = row.Split(';')[2];
                         inventarios.casaproductora = row.Split(';')[3];
-                        if(row.Split(';')[4].Contains("$"))
-                        {
-                            row.Split(';')[4] = row.Split(';')[4].Trim(new Char[] { '$' });
-                        }
-                        inventarios.precio =/*Convert.ToDouble(*/row.Split(';')[4]/*)*/;
+                        inventarios.precio =row.Split(';')[4];
                         inventarios.existencia = Convert.ToInt32(row.Split(';')[5]);
                         inventario.Add(inventarios);
                     }

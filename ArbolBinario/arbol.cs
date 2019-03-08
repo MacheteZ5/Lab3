@@ -68,7 +68,7 @@ namespace ArbolBinario
             {
                 Console.Write(recorrer.elemento.Nombre + " ");
                 PreOrden(recorrer.izquierda);
-                reOrden(recorrer.derecha);
+                PreOrden(recorrer.derecha);
             }
         }
         private void InOrden(Nodo recorrer)
@@ -89,17 +89,17 @@ namespace ArbolBinario
                 Console.Write(recorrer.elemento.Nombre + " ");
             }
         }
-        public void mostrarpreOrden()
+        public void MostrarpreOrden()
         {
-            preOrden(raiz);
+            PreOrden(raiz);
         }
-        public void mostrarinOrden()
+        public void MostrarinOrden()
         {
-            inOrden(raiz);
+            InOrden(raiz);
         }
-        public void mostrarpostOrden()
+        public void MostrarpostOrden()
         {
-            postOrden(raiz);
+            PostOrden(raiz);
         }
 
 
